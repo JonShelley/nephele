@@ -17,4 +17,5 @@ sudo chmod +x /usr/local/bin/terraform
 
 # Install ansible
 sudo apt install -y python3-pip
-sudo pip3 install --upgrade ansible
+sudo python3 -m pip install -U pip
+sudo python3 -m pip install --upgrade ansible
